@@ -7,21 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		437C76810B1AB3AB6F32565B /* Pods_College_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38E7412F77F7CB07F04C78F9 /* Pods_College_App.framework */; };
+		A011D2A51F3CD59500E2AB3D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A011D2A41F3CD59500E2AB3D /* User.swift */; };
+		A016B5B01F351D220080D4F8 /* MeetingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A016B5AF1F351D220080D4F8 /* MeetingCell.swift */; };
+		A016B5B21F351DF50080D4F8 /* MeetingListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A016B5B11F351DF50080D4F8 /* MeetingListViewController.swift */; };
+		A03CE5D71F28FB5B001A08A9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A03CE5D61F28FB5B001A08A9 /* GoogleService-Info.plist */; };
+		A047D5A71F3E71AF00305274 /* CollegeStudentMeetingInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A047D5A61F3E71AE00305274 /* CollegeStudentMeetingInfoViewController.swift */; };
+		A062DFBE1F2FEB2E00B2C94C /* CollegeSearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A062DFBD1F2FEB2E00B2C94C /* CollegeSearchTableViewCell.swift */; };
 		A078B76B1F214C1300E3FB08 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A078B76A1F214C1300E3FB08 /* AppDelegate.swift */; };
-		A078B76D1F214C1300E3FB08 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A078B76C1F214C1300E3FB08 /* ViewController.swift */; };
+		A078B76D1F214C1300E3FB08 /* WelcomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A078B76C1F214C1300E3FB08 /* WelcomeScreen.swift */; };
 		A078B7701F214C1300E3FB08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A078B76E1F214C1300E3FB08 /* Main.storyboard */; };
 		A078B7721F214C1300E3FB08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A078B7711F214C1300E3FB08 /* Assets.xcassets */; };
 		A078B7751F214C1300E3FB08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A078B7731F214C1300E3FB08 /* LaunchScreen.storyboard */; };
+		A0A388311F3B7975005420D4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A388301F3B7975005420D4 /* LoginViewController.swift */; };
+		A0C7058D1F3A5F9400CC6592 /* CollegeStudentHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C7058C1F3A5F9400CC6592 /* CollegeStudentHomeViewController.swift */; };
+		A0C7058F1F3A60D800CC6592 /* CollegeStudentMeetingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C7058E1F3A60D800CC6592 /* CollegeStudentMeetingCell.swift */; };
+		A0CD3A661F2FF9B900249453 /* School.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CD3A651F2FF9B900249453 /* School.swift */; };
+		A0CD3A681F2FF9F100249453 /* DC_InstGroup_731402.uid in Resources */ = {isa = PBXBuildFile; fileRef = A0CD3A671F2FF9F100249453 /* DC_InstGroup_731402.uid */; };
+		A0D7A5C51F269942001A81BD /* ProfileSetupController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D7A5C41F269942001A81BD /* ProfileSetupController.swift */; };
+		A0E91BA61F33EBAD00E0EA4D /* DatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E91BA51F33EBAD00E0EA4D /* DatePickerViewController.swift */; };
+		A0E9E5B31F3289A000077101 /* CollegeSearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E9E5B21F3289A000077101 /* CollegeSearchTableViewController.swift */; };
+		A0F489CE1F2FB362008D7A39 /* ProspectiveStudentHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F489CD1F2FB362008D7A39 /* ProspectiveStudentHomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		23872516A50C7FDC0F2E4A23 /* Pods-College App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-College App.release.xcconfig"; path = "Pods/Target Support Files/Pods-College App/Pods-College App.release.xcconfig"; sourceTree = "<group>"; };
+		38E7412F77F7CB07F04C78F9 /* Pods_College_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_College_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F8AF7E8498F79987F38045F /* Pods-College App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-College App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-College App/Pods-College App.debug.xcconfig"; sourceTree = "<group>"; };
+		A011D2A41F3CD59500E2AB3D /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = User.swift; path = ../User.swift; sourceTree = "<group>"; };
+		A016B5AF1F351D220080D4F8 /* MeetingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeetingCell.swift; sourceTree = "<group>"; };
+		A016B5B11F351DF50080D4F8 /* MeetingListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeetingListViewController.swift; sourceTree = "<group>"; };
+		A03CE5D61F28FB5B001A08A9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A047D5A61F3E71AE00305274 /* CollegeStudentMeetingInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollegeStudentMeetingInfoViewController.swift; sourceTree = "<group>"; };
+		A062DFBD1F2FEB2E00B2C94C /* CollegeSearchTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollegeSearchTableViewCell.swift; sourceTree = "<group>"; };
 		A078B7671F214C1300E3FB08 /* College App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "College App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A078B76A1F214C1300E3FB08 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A078B76C1F214C1300E3FB08 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A078B76C1F214C1300E3FB08 /* WelcomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreen.swift; sourceTree = "<group>"; };
 		A078B76F1F214C1300E3FB08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A078B7711F214C1300E3FB08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A078B7741F214C1300E3FB08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A078B7761F214C1300E3FB08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0A388301F3B7975005420D4 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A0C7058C1F3A5F9400CC6592 /* CollegeStudentHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollegeStudentHomeViewController.swift; sourceTree = "<group>"; };
+		A0C7058E1F3A60D800CC6592 /* CollegeStudentMeetingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollegeStudentMeetingCell.swift; sourceTree = "<group>"; };
+		A0CD3A651F2FF9B900249453 /* School.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = School.swift; sourceTree = "<group>"; };
+		A0CD3A671F2FF9F100249453 /* DC_InstGroup_731402.uid */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = DC_InstGroup_731402.uid; path = "../../../../../../../../../Users/jonathandamico/Documents/Make School/College App/College App/DC_InstGroup_731402.uid"; sourceTree = SDKROOT; };
+		A0D7A5C41F269942001A81BD /* ProfileSetupController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileSetupController.swift; sourceTree = "<group>"; };
+		A0E91BA51F33EBAD00E0EA4D /* DatePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerViewController.swift; sourceTree = "<group>"; };
+		A0E9E5B21F3289A000077101 /* CollegeSearchTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollegeSearchTableViewController.swift; sourceTree = "<group>"; };
+		A0F489CD1F2FB362008D7A39 /* ProspectiveStudentHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProspectiveStudentHomeViewController.swift; path = "../../../../Users/jonathandamico/Documents/Make School/College App/College App/ProspectiveStudentHomeViewController.swift"; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				437C76810B1AB3AB6F32565B /* Pods_College_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +75,8 @@
 			children = (
 				A078B7691F214C1300E3FB08 /* College App */,
 				A078B7681F214C1300E3FB08 /* Products */,
+				F57202EDFE83E654D5FE6986 /* Pods */,
+				EC09E1EA2CE1B21F01E88748 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +91,46 @@
 		A078B7691F214C1300E3FB08 /* College App */ = {
 			isa = PBXGroup;
 			children = (
+				A011D2A41F3CD59500E2AB3D /* User.swift */,
+				A0CD3A671F2FF9F100249453 /* DC_InstGroup_731402.uid */,
 				A078B76A1F214C1300E3FB08 /* AppDelegate.swift */,
-				A078B76C1F214C1300E3FB08 /* ViewController.swift */,
+				A078B76C1F214C1300E3FB08 /* WelcomeScreen.swift */,
 				A078B76E1F214C1300E3FB08 /* Main.storyboard */,
+				A047D5A61F3E71AE00305274 /* CollegeStudentMeetingInfoViewController.swift */,
+				A0A388301F3B7975005420D4 /* LoginViewController.swift */,
+				A016B5AF1F351D220080D4F8 /* MeetingCell.swift */,
+				A016B5B11F351DF50080D4F8 /* MeetingListViewController.swift */,
+				A0E91BA51F33EBAD00E0EA4D /* DatePickerViewController.swift */,
+				A062DFBD1F2FEB2E00B2C94C /* CollegeSearchTableViewCell.swift */,
+				A0F489CD1F2FB362008D7A39 /* ProspectiveStudentHomeViewController.swift */,
+				A0C7058E1F3A60D800CC6592 /* CollegeStudentMeetingCell.swift */,
+				A0C7058C1F3A5F9400CC6592 /* CollegeStudentHomeViewController.swift */,
+				A0CD3A651F2FF9B900249453 /* School.swift */,
+				A0D7A5C41F269942001A81BD /* ProfileSetupController.swift */,
 				A078B7711F214C1300E3FB08 /* Assets.xcassets */,
 				A078B7731F214C1300E3FB08 /* LaunchScreen.storyboard */,
 				A078B7761F214C1300E3FB08 /* Info.plist */,
+				A03CE5D61F28FB5B001A08A9 /* GoogleService-Info.plist */,
+				A0E9E5B21F3289A000077101 /* CollegeSearchTableViewController.swift */,
 			);
 			path = "College App";
+			sourceTree = "<group>";
+		};
+		EC09E1EA2CE1B21F01E88748 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				38E7412F77F7CB07F04C78F9 /* Pods_College_App.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F57202EDFE83E654D5FE6986 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9F8AF7E8498F79987F38045F /* Pods-College App.debug.xcconfig */,
+				23872516A50C7FDC0F2E4A23 /* Pods-College App.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +140,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A078B7791F214C1300E3FB08 /* Build configuration list for PBXNativeTarget "College App" */;
 			buildPhases = (
+				14B3CF950FCA1DC08BA50B19 /* [CP] Check Pods Manifest.lock */,
 				A078B7631F214C1300E3FB08 /* Sources */,
 				A078B7641F214C1300E3FB08 /* Frameworks */,
 				A078B7651F214C1300E3FB08 /* Resources */,
+				3230809507A30B3D0FB793F4 /* [CP] Embed Pods Frameworks */,
+				F9E9EAF375FF6FAE222D31C8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,20 +197,102 @@
 			buildActionMask = 2147483647;
 			files = (
 				A078B7751F214C1300E3FB08 /* LaunchScreen.storyboard in Resources */,
+				A03CE5D71F28FB5B001A08A9 /* GoogleService-Info.plist in Resources */,
 				A078B7721F214C1300E3FB08 /* Assets.xcassets in Resources */,
 				A078B7701F214C1300E3FB08 /* Main.storyboard in Resources */,
+				A0CD3A681F2FF9F100249453 /* DC_InstGroup_731402.uid in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		14B3CF950FCA1DC08BA50B19 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-College App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3230809507A30B3D0FB793F4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-College App/Pods-College App-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/DZNEmptyDataSet/DZNEmptyDataSet.framework",
+				"${BUILT_PRODUCTS_DIR}/FSCalendar/FSCalendar.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DZNEmptyDataSet.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FSCalendar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-College App/Pods-College App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9E9EAF375FF6FAE222D31C8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-College App/Pods-College App-resources.sh",
+				$PODS_CONFIGURATION_BUILD_DIR/FirebaseUI/FirebaseAuthUI.bundle,
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-College App/Pods-College App-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A078B7631F214C1300E3FB08 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A078B76D1F214C1300E3FB08 /* ViewController.swift in Sources */,
+				A0F489CE1F2FB362008D7A39 /* ProspectiveStudentHomeViewController.swift in Sources */,
+				A0C7058F1F3A60D800CC6592 /* CollegeStudentMeetingCell.swift in Sources */,
+				A0CD3A661F2FF9B900249453 /* School.swift in Sources */,
+				A078B76D1F214C1300E3FB08 /* WelcomeScreen.swift in Sources */,
+				A0C7058D1F3A5F9400CC6592 /* CollegeStudentHomeViewController.swift in Sources */,
+				A0D7A5C51F269942001A81BD /* ProfileSetupController.swift in Sources */,
+				A011D2A51F3CD59500E2AB3D /* User.swift in Sources */,
+				A016B5B01F351D220080D4F8 /* MeetingCell.swift in Sources */,
+				A0E91BA61F33EBAD00E0EA4D /* DatePickerViewController.swift in Sources */,
 				A078B76B1F214C1300E3FB08 /* AppDelegate.swift in Sources */,
+				A062DFBE1F2FEB2E00B2C94C /* CollegeSearchTableViewCell.swift in Sources */,
+				A016B5B21F351DF50080D4F8 /* MeetingListViewController.swift in Sources */,
+				A0A388311F3B7975005420D4 /* LoginViewController.swift in Sources */,
+				A0E9E5B31F3289A000077101 /* CollegeSearchTableViewController.swift in Sources */,
+				A047D5A71F3E71AF00305274 /* CollegeStudentMeetingInfoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +415,7 @@
 		};
 		A078B77A1F214C1300E3FB08 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F8AF7E8498F79987F38045F /* Pods-College App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = BME79ZAEBK;
@@ -274,6 +429,7 @@
 		};
 		A078B77B1F214C1300E3FB08 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23872516A50C7FDC0F2E4A23 /* Pods-College App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = BME79ZAEBK;
@@ -304,6 +460,7 @@
 				A078B77B1F214C1300E3FB08 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

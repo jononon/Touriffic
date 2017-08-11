@@ -7,6 +7,9 @@
 //
 
 import UIKit
+import Firebase
+import GoogleMaps
+import GooglePlaces
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +19,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 	func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
 		// Override point for customization after application launch.
+		FirebaseApp.configure()
+		GMSPlacesClient.provideAPIKey("AIzaSyADAQjg3IMuGcVvsM2JGu0Sn72epz_0yp0")
+		GMSServices.provideAPIKey("AIzaSyADAQjg3IMuGcVvsM2JGu0Sn72epz_0yp0")
+		
+		configureInitialRootViewController(for: window)
 		return true
 	}
 
@@ -44,3 +52,29 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 }
 
+extension AppDelegate {
+	func configureInitialRootViewController(for window: UIWindow?) {
+		let defaults = UserDefaults.standard
+		let initialViewController: UIViewController
+		let storyboard = UIStoryboard(name: "Main", bundle: nil)
+		if Auth.auth().currentUser != nil,
+			let userData = defaults.object(forKey: "currentUser") as? Data,
+			let user = NSKeyedUnarchiver.unarchiveObject(with: userData) as? User {
+			
+			User.setCurrent(user)
+			
+			
+			
+			if let _ = user.college {
+				initialViewController = storyboard.instantiateViewController(withIdentifier: "CollegeStudentHome")
+			} else {
+				initialViewController = storyboard.instantiateViewController(withIdentifier: "ProspectiveStudentHome")
+			}
+		} else {
+			initialViewController = storyboard.instantiateViewController(withIdentifier: "Welcome")
+		}
+		
+		window?.rootViewController = initialViewController
+		window?.makeKeyAndVisible()
+	}
+}
